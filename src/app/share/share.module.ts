@@ -1,0 +1,83 @@
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import {
+  MatSidenavModule,
+  MatToolbarModule,
+  MatIconModule,
+  MatButtonModule,
+  MatCardModule,
+  MatInputModule,
+  MatListModule,
+  MatSlideToggleModule,
+  MatGridListModule,
+  MatDialogModule,
+  MatAutocompleteModule,
+  MatMenuModule,
+  MatCheckboxModule,
+  MatTooltipModule,
+  MatDatepickerModule,
+  MatRadioModule,
+  MatNativeDateModule,
+  MatSelectModule,
+  MatButtonToggleModule,
+  MatChipsModule,
+  MatTabsModule
+} from '@angular/material';
+
+@NgModule({
+  imports: [
+    CommonModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MatSidenavModule,
+    MatToolbarModule,
+    MatIconModule,
+    MatButtonModule,
+    MatCardModule,
+    MatInputModule,
+    MatListModule,
+    MatSlideToggleModule,
+    MatGridListModule,
+    MatDialogModule,
+    MatAutocompleteModule,
+    MatMenuModule,
+    MatCheckboxModule,
+    MatTooltipModule,
+    MatDatepickerModule,
+    MatRadioModule,
+    MatNativeDateModule,
+    MatSelectModule,
+    MatButtonToggleModule,
+    MatChipsModule,
+    MatTabsModule
+  ],
+  declarations: [],
+  exports: [
+    CommonModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MatSidenavModule,
+    MatToolbarModule,
+    MatIconModule,
+    MatButtonModule,
+    MatCardModule,
+    MatInputModule,
+    MatListModule,
+    MatSlideToggleModule,
+    MatGridListModule,
+    MatDialogModule,
+    MatAutocompleteModule,
+    MatMenuModule,
+    MatCheckboxModule,
+    MatTooltipModule,
+    MatDatepickerModule,
+    MatRadioModule,
+    MatNativeDateModule,
+    MatSelectModule,
+    MatButtonToggleModule,
+    MatChipsModule,
+    MatTabsModule
+  ]
+})
+export class ShareModule { }
